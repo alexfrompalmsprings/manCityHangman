@@ -12,6 +12,7 @@
   <h1>Man City Hangman</h1>
   <p>Find the hidden word - Enter a letter</p>
   <p>Go City!!</p>
+
   <div class="game-container">
     <svg height='250' width='200' class="figure-container">
       <!-- the vertical pole -->
@@ -21,7 +22,7 @@
       <!-- rope -->
       <line x1="140" y1="20" x2="140" y2="50" />
       <!-- the base -->
-      <line x1="20" y1="250" x2="140" y2="250" />
+      <line x1="20" y1="250" x2="100" y2="250" />
 
 
       <!-- head -->
@@ -39,35 +40,29 @@
     <div class="wrong-letters-container">
       <div id="wrong-letters">
         <p>Wrong</p>
-        <span>e,r,t,y</span>
       </div>
     </div>
 
-    <!-- container fo the wrong letters -->
+    <!-- wrong letters -->
     <div class="word" id="word">
-      <div id="letter">h</div>
-      <div id="letter">e</div>
-      <div id="letter">l</div>
-      <div id="letter">l</div>
-      <div id="letter">o</div>
     </div>
-
-    <!-- container for final message -->
-    <div class="popup-container" id="popup-container">
-      <div class="popup">
-        <h2 id="final-message">You are true city fan!!</h2>
-        <button id="play-button">Play Again</button>
-      </div>
-    </div>
-
-    <!-- notification -->
-    <div class="notification-container" id="notification-container">
-      <p>You have already entered this letter</p>
-    </div>
-
-
 
   </div>
-</body>
 
+  <!-- container for final message -->
+  <div class="popup-container" id="popup-container">
+    <div class="popup">
+      <h2 id="final-message">You are true city fan!!</h2>
+      <button id="play-button">Play Again</button>
+    </div>
+  </div>
+
+  <!-- notification -->
+  <div class="notification-container" id="notification-container">
+    <p>You have already entered this letter</p>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
 </html>
